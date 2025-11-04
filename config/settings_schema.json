@@ -1,0 +1,31 @@
+[
+  {
+    "name": "hero",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "عنوان القسم",
+        "default": "مرحبا بكم في متجري"
+      },
+      {
+        "type": "text",
+        "id": "subtitle",
+        "label": "وصف قصير",
+        "default": "أفضل المنتجات بأفضل الأسعار"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "نص الزر",
+        "default": "تسوق الآن"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "رابط الزر",
+        "default": "/products"
+      }
+    ]
+  }
+]

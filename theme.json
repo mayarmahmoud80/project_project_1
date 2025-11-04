@@ -1,0 +1,9 @@
+{
+  "name": "My First Salla Theme",
+  "version": "1.0.0",
+  "sections": {
+    "header": "sections/header.twig",
+    "hero": "sections/hero.twig",
+    "footer": "sections/footer.twig"
+  }
+}
