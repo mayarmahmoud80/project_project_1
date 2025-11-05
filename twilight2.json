@@ -1,0 +1,20 @@
+{
+  "name": "Professional Store Theme",
+  "version": "1.0.0",
+  "author": "AI Studio",
+  "description": "A professional, ready-to-upload Salla theme with header, hero, product grid and footer.",
+  "engine": "twilight",
+  "assets": {
+    "main": "layout/theme.liquid"
+  },
+  "locales": {
+    "ar": "locales/ar.json"
+  },
+  "sections": {
+    "header": "sections/header.liquid",
+    "hero-banner": "sections/hero-banner.liquid",
+    "product-grid": "sections/product-grid.liquid",
+    "footer": "sections/footer.liquid"
+  },
+  "settings": "config/settings_schema.json"
+}
