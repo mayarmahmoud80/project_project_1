@@ -1,8 +1,8 @@
 {
-  "name": "Fixed Demo Theme",
+  "name": "Demo Theme",
   "version": "1.0.0",
-  "author": "Auto Fixer",
-  "description": "A fixed demo theme prepared for Salla (Twilight).",
+  "author": "Your Name",
+  "description": "A simple demo theme for Salla stores.",
   "engine": "twilight",
   "assets": {
     "main": "layout/theme.liquid"
@@ -12,5 +12,6 @@
   },
   "sections": {
     "hero-banner": "sections/hero-banner.liquid"
-  }
+  },
+  "settings_schema": "config/settings_schema.json"
 }
