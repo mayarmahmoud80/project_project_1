@@ -16,5 +16,5 @@
     "product-grid": "sections/product-grid.liquid",
     "footer": "sections/footer.liquid"
   },
-  "settings_schema": "config/settings_schema.json"
+  "settings": "config/settings_schema.json"
 }
