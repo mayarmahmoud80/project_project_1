@@ -1,8 +1,8 @@
 {
-  "name": "Demo Theme",
+  "name": "Professional Store Theme",
   "version": "1.0.0",
-  "author": "Your Name",
-  "description": "A simple demo theme for Salla stores.",
+  "author": "AI Studio",
+  "description": "A professional, ready-to-upload Salla theme with header, hero, product grid and footer.",
   "engine": "twilight",
   "assets": {
     "main": "layout/theme.liquid"
@@ -11,7 +11,10 @@
     "ar": "locales/ar.json"
   },
   "sections": {
-    "hero-banner": "sections/hero-banner.liquid"
+    "header": "sections/header.liquid",
+    "hero-banner": "sections/hero-banner.liquid",
+    "product-grid": "sections/product-grid.liquid",
+    "footer": "sections/footer.liquid"
   },
   "settings_schema": "config/settings_schema.json"
 }

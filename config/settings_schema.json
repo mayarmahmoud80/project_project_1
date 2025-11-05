@@ -1,12 +1,12 @@
 [
   {
-    "name": "الإعدادات العامة",
+    "name": "General",
     "settings": [
       {
-        "type": "color",
-        "id": "background_color",
-        "label": "لون الخلفية العام",
-        "default": "#ffffff"
+        "type": "text",
+        "id": "store_tagline",
+        "label": "شعار المتجر",
+        "default": "أفضل المتاجر"
       }
     ]
   }

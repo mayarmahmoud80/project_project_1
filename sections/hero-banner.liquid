@@ -1,16 +1,17 @@
-<section class="hero-banner" style="padding:40px; text-align:center;">
-  <h1>{{ shop.name }}</h1>
-  <p>مرحبًا بكم في متجري التجريبي على سلة</p>
-  <a href="/" class="btn">تسوق الآن</a>
+<section class="hero" style="padding:40px 0; text-align:center;">
+  <div class="container">
+    <h1>{{ 'welcome_message' | t }}</h1>
+    <p class="lead">{{ 'hero_text' | t }}</p>
+    <a class="btn" href="/collections">{{ 'shop_now' | t }}</a>
+  </div>
 </section>
 
 {% schema %}
 {
   "name": "Hero Banner",
   "settings": [
-    { "type": "text", "id": "title", "label": "العنوان", "default": "مرحبًا بكم" },
-    { "type": "text", "id": "subtitle", "label": "النص الفرعي", "default": "أفضل المنتجات هنا" },
-    { "type": "color", "id": "bg_color", "label": "لون الخلفية", "default": "#ffffff" }
+    { "type": "text", "id": "title", "label": "العنوان", "default": "أفضل المنتجات هنا" },
+    { "type": "text", "id": "subtitle", "label": "النص الفرعي", "default": "تسوّق الآن واحصل على عروض" }
   ],
   "presets": [{ "name": "Hero Banner" }]
 }

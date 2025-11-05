@@ -1,0 +1,34 @@
+<section class="products">
+  <div class="container">
+    <h2>منتجات مختارة</h2>
+    <div class="grid">
+      {% for product in collections.all.products limit:8 %}
+      <article class="card">
+        <a href="{{ product.url }}">
+          <div class="thumb">
+            {% if product.featured_image %}
+              <img src="{{ product.featured_image.src }}" alt="{{ product.title }}">
+            {% else %}
+              <div class="placeholder">No image</div>
+            {% endif %}
+          </div>
+          <h3>{{ product.title }}</h3>
+          <p class="price">{{ product.price | money }}</p>
+        </a>
+      </article>
+      {% else %}
+        <p>لا توجد منتجات لعرضها. أضف بعض المنتجات في لوحة التحكم.</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Product Grid",
+  "settings": [
+    { "type": "number", "id": "limit", "label": "عدد المنتجات", "default": 8 }
+  ],
+  "presets": [{ "name": "Grid" }]
+}
+{% endschema %}

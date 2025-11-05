@@ -1,1 +1,1 @@
-console.log("Salla theme loaded");
+document.addEventListener('DOMContentLoaded', function(){ console.log('Theme loaded'); });
