@@ -1,12 +1,13 @@
 {
-  "name": "My Working Theme",
+  "name": "My Test Theme",
   "version": "1.0.0",
-  "author": "Developer",
-  "description": "A fully working demo theme for Salla Twilight engine.",
+  "author": "Your Name",
+  "description": "A simple test theme for Salla.",
   "engine": "twilight",
   "assets": {
     "main": "layout/theme.liquid"
   },
-  "locales": ["ar"],
-  "settings": []
+  "locales": {
+    "ar": "locales/ar.json"
+  }
 }
