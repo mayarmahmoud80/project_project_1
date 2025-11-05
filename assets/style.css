@@ -1,34 +1,19 @@
 body {
   font-family: "Cairo", sans-serif;
+  background-color: #fff;
   margin: 0;
   padding: 0;
 }
 
-.container {
-  width: 90%;
-  margin: auto;
-}
-
-.site-header, .site-footer {
-  background: #333;
-  color: #fff;
-  padding: 20px 0;
-}
-
-.hero {
+.hero-banner {
   text-align: center;
-  padding: 100px 20px;
-  background: #f2f2f2;
-}
-
-.hero h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
+  padding: 80px 20px;
 }
 
 .btn {
-  background: #000;
+  background: #2b6cb0;
   color: #fff;
   padding: 10px 20px;
+  border-radius: 6px;
   text-decoration: none;
 }
