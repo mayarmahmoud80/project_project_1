@@ -1,8 +1,8 @@
 {
-  "name": "Demo Theme",
+  "name": "Fixed Demo Theme",
   "version": "1.0.0",
-  "author": "Your Name",
-  "description": "Simple working demo theme for Salla platform.",
+  "author": "Auto Fixer",
+  "description": "A fixed demo theme prepared for Salla (Twilight).",
   "engine": "twilight",
   "assets": {
     "main": "layout/theme.liquid"

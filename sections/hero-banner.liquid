@@ -1,4 +1,17 @@
-<section class="hero">
-  <h1>Welcome to {{ shop.name }}</h1>
-  <p>Your Salla custom theme is working perfectly 🎉</p>
+<section class="hero-banner" style="padding:40px; text-align:center;">
+  <h1>{{ shop.name }}</h1>
+  <p>مرحبًا بكم في متجري التجريبي على سلة</p>
+  <a href="/" class="btn">تسوق الآن</a>
 </section>
+
+{% schema %}
+{
+  "name": "Hero Banner",
+  "settings": [
+    { "type": "text", "id": "title", "label": "العنوان", "default": "مرحبًا بكم" },
+    { "type": "text", "id": "subtitle", "label": "النص الفرعي", "default": "أفضل المنتجات هنا" },
+    { "type": "color", "id": "bg_color", "label": "لون الخلفية", "default": "#ffffff" }
+  ],
+  "presets": [{ "name": "Hero Banner" }]
+}
+{% endschema %}

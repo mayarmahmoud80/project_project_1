@@ -1,12 +1,12 @@
 [
   {
-    "name": "Hero Title",
+    "name": "الإعدادات العامة",
     "settings": [
       {
-        "type": "text",
-        "id": "hero_title",
-        "label": "عنوان الهيرو",
-        "default": "مرحبا بكم في متجري"
+        "type": "color",
+        "id": "background_color",
+        "label": "لون الخلفية العام",
+        "default": "#ffffff"
       }
     ]
   }
