@@ -1,26 +1,4 @@
-<section class="hero-banner" style="background-color: {{ section.settings.bg_color }};">
-  <h1 style="color: {{ section.settings.title_color }};">{{ section.settings.title }}</h1>
-  <p style="color: {{ section.settings.subtitle_color }};">{{ section.settings.subtitle }}</p>
-
-  {% if section.settings.button_label %}
-    <a href="{{ section.settings.button_link }}" class="btn">
-      {{ section.settings.button_label }}
-    </a>
-  {% endif %}
+<section class="hero">
+  <h1>Welcome to {{ shop.name }}</h1>
+  <p>Your Salla custom theme is working perfectly 🎉</p>
 </section>
-
-{% schema %}
-{
-  "name": "Hero Banner",
-  "settings": [
-    { "type": "text", "id": "title", "label": "العنوان الرئيسي", "default": "مرحباً بك في متجرنا" },
-    { "type": "text", "id": "subtitle", "label": "النص الفرعي", "default": "أفضل المنتجات بأفضل الأسعار" },
-    { "type": "text", "id": "button_label", "label": "نص الزر", "default": "تسوق الآن" },
-    { "type": "url", "id": "button_link", "label": "رابط الزر", "default": "/" },
-    { "type": "color", "id": "bg_color", "label": "لون الخلفية", "default": "#f9f9f9" },
-    { "type": "color", "id": "title_color", "label": "لون العنوان", "default": "#333" },
-    { "type": "color", "id": "subtitle_color", "label": "لون النص الفرعي", "default": "#777" }
-  ],
-  "presets": [{ "name": "Hero Banner بسيط" }]
-}
-{% endschema %}

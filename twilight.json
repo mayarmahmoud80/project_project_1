@@ -1,11 +1,12 @@
 {
-  "name": "My Twilight Theme",
+  "name": "My Working Theme",
   "version": "1.0.0",
-  "author": "Your Name",
-  "description": "A simple experimental theme built using Twilight.",
+  "author": "Developer",
+  "description": "A fully working demo theme for Salla Twilight engine.",
   "engine": "twilight",
   "assets": {
     "main": "layout/theme.liquid"
   },
-  "locales": ["ar"]
+  "locales": ["ar"],
+  "settings": []
 }
