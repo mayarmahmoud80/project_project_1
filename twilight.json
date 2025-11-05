@@ -1,0 +1,11 @@
+{
+  "name": "My Twilight Theme",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "description": "قالب تجريبي بسيط باستخدام Twilight.",
+  "engine": "twilight",
+  "assets": {
+    "main": "layout/theme.liquid"
+  },
+  "locales": ["ar"]
+}
