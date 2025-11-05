@@ -1,13 +1,16 @@
 {
-  "name": "My Test Theme",
+  "name": "Demo Theme",
   "version": "1.0.0",
   "author": "Your Name",
-  "description": "A simple test theme for Salla.",
+  "description": "Simple working demo theme for Salla platform.",
   "engine": "twilight",
   "assets": {
     "main": "layout/theme.liquid"
   },
   "locales": {
     "ar": "locales/ar.json"
+  },
+  "sections": {
+    "hero-banner": "sections/hero-banner.liquid"
   }
 }
